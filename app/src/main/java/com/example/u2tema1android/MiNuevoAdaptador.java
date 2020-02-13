@@ -41,8 +41,8 @@ public class MiNuevoAdaptador extends
         micontext.startActivity(intent);
       }
     });
-    holder.codigo.setText(lista.get(i).getcodigo());
-    holder.titulo.setText(lista.get(i).getNombre()+" "+lista.get(i).getApellido());
+    holder.codigo.setText(lista.get(i).getCod_persona());
+    holder.titulo.setText(lista.get(i).getNombre()+" "+lista.get(i).getApellidos());
   }
 
   @Override

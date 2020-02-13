@@ -89,6 +89,7 @@
             android:layout_height="wrap_content"
             android:text="Insertar"
             android:layout_below="@id/telefono"
-            android:onClick="Insertar"/>
+            android:onClick="Insertar"
+            android:visibility="invisible"/>
     </RelativeLayout>
 </androidx.core.widget.NestedScrollView>

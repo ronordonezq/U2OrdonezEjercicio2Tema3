@@ -1,21 +1,38 @@
 package com.example.u2tema1android;
 
 public class Cliente  {
-  private String codigo;
-  private String nombre;
-  private String Apellido;
-  public Cliente(String codigo, String nombre, String Apellido) {
-    this.codigo = codigo;
-    this.nombre = nombre;
-    this.Apellido= Apellido;
+  private String Cod_persona;
+  private String Nombre;
+  private String Apellidos;
+  public Cliente(String cod_persona, String nombre, String apellidos) {
+    Cod_persona = cod_persona;
+    Nombre = nombre;
+    Apellidos = apellidos;
   }
-  public String getcodigo() {
-    return codigo;
+  public String getCod_persona() {
+    return Cod_persona;
   }
+
+  public void setCod_persona(String cod_persona) {
+    Cod_persona = cod_persona;
+  }
+
   public String getNombre() {
-    return nombre;
+    return Nombre;
   }
-  public String getApellido() {
-    return Apellido;
+
+  public void setNombre(String nombre) {
+    Nombre = nombre;
   }
+
+  public String getApellidos() {
+    return Apellidos;
+  }
+
+  public void setApellidos(String apellidos) {
+    Apellidos = apellidos;
+  }
+
+
+
 }
